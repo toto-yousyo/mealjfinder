@@ -8,6 +8,7 @@ const Form = (props) => {
             type="text"
             name="mealName"
             placeholder="input meal name in English" />
+            value={contextValues.mealName}
         <button>Search</button>
       </form>
     )
